@@ -3101,6 +3101,10 @@ html[lang="ta"] .footer__names {
   opacity: .75;
 }
 
+.footer__small b {
+    font-size: 19px;
+}
+
 html[lang="ta"] .footer__small {
   font-size: .85rem;
 }
