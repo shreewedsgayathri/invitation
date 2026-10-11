@@ -19,15 +19,15 @@ const weddingConfig = {
 
   /* ---- Music: put your song at this path (mp3). If the file is missing,
          a gentle synthesised tanpura drone plays instead. ---- */
-  musicFile: "assets/music/wedding-music.mp4",
+  musicFile: "../assets/music/wedding-music.mp4",
 
   /* ---- Photos: replace these files with your own (keep the names or
          change the paths here). ---- */
   images: {
-    bride: "assets/images/bride.jpg",
-    groom: "assets/images/groom.jpg",
-    couple: "assets/images/couple.jpeg",
-    monogram: "assets/images/monogram.png"
+    bride: "../assets/images/bride.jpg",
+    groom: "../assets/images/groom.jpg",
+    couple: "../assets/images/couple.jpeg",
+    monogram: "../assets/images/monogram.png"
   },
 
   /* ---- Google Maps links for each venue ---- */
@@ -39,14 +39,14 @@ const weddingConfig = {
   /* ---- Gallery: add/remove items freely. w/h = image size in pixels
          (prevents layout jumps while loading). ---- */
   gallery: [
-    { src: "assets/images/gallery/invitation-card.jpg", w: 711, h: 900, en: "Our wedding invitation", ta: "எங்கள் திருமண அழைப்பிதழ்" },
-    { src: "assets/images/gallery/photo-1.jpg", w: 800, h: 1000, en: "Photo 1", ta: "புகைப்படம் 1" },
-    { src: "assets/images/gallery/photo-2.jpg", w: 800, h: 600, en: "Photo 2", ta: "புகைப்படம் 2" },
-    { src: "assets/images/gallery/photo-3.jpg", w: 800, h: 800, en: "Photo 3", ta: "புகைப்படம் 3" },
-    { src: "assets/images/gallery/photo-4.jpg", w: 800, h: 1100, en: "Photo 4", ta: "புகைப்படம் 4" },
-    { src: "assets/images/gallery/photo-5.jpg", w: 800, h: 560, en: "Photo 5", ta: "புகைப்படம் 5" },
-    { src: "assets/images/gallery/photo-6.jpg", w: 800, h: 900, en: "Photo 6", ta: "புகைப்படம் 6" },
-    { src: "assets/images/gallery/photo-7.jpg", w: 800, h: 700, en: "Photo 7", ta: "புகைப்படம் 7" }
+    { src: "../assets/images/gallery/invitation-card.jpg", w: 711, h: 900, en: "Our wedding invitation", ta: "எங்கள் திருமண அழைப்பிதழ்" },
+    { src: "../assets/images/gallery/photo-1.jpg", w: 800, h: 1000, en: "Photo 1", ta: "புகைப்படம் 1" },
+    { src: "../assets/images/gallery/photo-2.jpg", w: 800, h: 600, en: "Photo 2", ta: "புகைப்படம் 2" },
+    { src: "../assets/images/gallery/photo-3.jpg", w: 800, h: 800, en: "Photo 3", ta: "புகைப்படம் 3" },
+    { src: "../assets/images/gallery/photo-4.jpg", w: 800, h: 1100, en: "Photo 4", ta: "புகைப்படம் 4" },
+    { src: "../assets/images/gallery/photo-5.jpg", w: 800, h: 560, en: "Photo 5", ta: "புகைப்படம் 5" },
+    { src: "../assets/images/gallery/photo-6.jpg", w: 800, h: 900, en: "Photo 6", ta: "புகைப்படம் 6" },
+    { src: "../assets/images/gallery/photo-7.jpg", w: 800, h: 700, en: "Photo 7", ta: "புகைப்படம் 7" }
   ],
 
   /* ---- Family contacts shown in the RSVP section ---- */
