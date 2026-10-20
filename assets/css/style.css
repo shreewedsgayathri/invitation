@@ -3102,7 +3102,7 @@ html[lang="ta"] .footer__names {
 }
 
 .footer__small b {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 html[lang="ta"] .footer__small {
@@ -5550,6 +5550,16 @@ main:focus {
   font-size: 2.3rem;
   line-height: 1.15;
   color: var(--pro-maroon);
+}
+
+@media (max-width: 767px) {
+  .couple-photo__frame img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 6;
+    object-fit: cover;
+    border-radius: 16px;
+  }
 }
 
 @media (min-width: 820px) {

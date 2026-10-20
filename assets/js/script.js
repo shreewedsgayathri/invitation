@@ -73,8 +73,8 @@ const weddingConfig = {
     groomPlace: "Kattuputhur, Tiruchirappalli",
 
     brideTitle: "Dr. M.",
-    brideName: "Gayathri",
-    brideAlias: "(a) Poongodi",
+    brideName: "Poongodi",
+    brideAlias: "(a) Gayathri",
     brideQual: "BNYS",
     brideRole: "Assistant Professor cum Medical Officer, Swamy Vivekanandha Naturopathy & Yoga Medical College",
     brideParents: "Thiru. V. Manikumar & Tmt. M. Rani",
@@ -119,8 +119,8 @@ const weddingConfig = {
     groomPlace: "காட்டுப்புத்தூர், திருச்சி மாவட்டம்",
 
     brideTitle: "Dr. M.",
-    brideName: "காயத்ரி",
-    brideAlias: "(எ) பூங்கொடி",
+    brideName: "பூங்கொடி",
+    brideAlias: "(எ) காயத்ரி",
     brideQual: "BNYS",
     brideRole: "Assistant Professor Cum Medical Officer, Swamy Vivekanandha Naturopathy & Yoga Medical College",
     brideParents: "திரு. V. மணிக்குமார் – திருமதி. M. ராணி",
@@ -168,11 +168,11 @@ const UI_TEXT = {
     musicFallback: "Playing a soft tanpura drone. Add your song at assets/music/wedding-music.mp4",
     openPhoto: "Open photo", photoOf: "of",
     rsvpOpening: "Opening WhatsApp…",
-    waDefault: "Vanakkam! We received the wedding invitation for Shree raam & Gayathri. ",
-    calTitle: "Wedding of Shree raam & Gayathri (Muhurtham)",
+    waDefault: "Vanakkam! We received the wedding invitation for Shree raam & Poongodi. ",
+    calTitle: "Wedding of Shree raam & Poongodi (Muhurtham)",
     calDetails: "Muhurtham 4:30 – 6:00 AM. Reception on 21 Nov 2026, 6:30 PM at Sankara Narayana Kalyana Mandapam, Vadavalli.",
     rsvpText: (d) =>
-      `🙏 RSVP — Shree raam & Gayathri's Wedding\n\nName: ${d.name}\nAttending: ${d.attending}\nGuests: ${d.guests}` +
+      `🙏 RSVP — Shree raam & Poongodi's Wedding\n\nName: ${d.name}\nAttending: ${d.attending}\nGuests: ${d.guests}` +
       (d.events.length ? `\nEvents: ${d.events.join(", ")}` : "") +
       (d.msg ? `\n\nBlessings: ${d.msg}` : ""),
     yes: "Yes, joyfully", no: "Sorry, can't make it"
@@ -186,11 +186,11 @@ const UI_TEXT = {
     musicFallback: "மென்மையான தம்புரா இசை ஒலிக்கிறது. உங்கள் பாடலை assets/music/wedding-music.mp4 இல் சேர்க்கவும்",
     openPhoto: "புகைப்படம் திறக்க", photoOf: "/",
     rsvpOpening: "வாட்ஸ்அப் திறக்கிறது…",
-    waDefault: "வணக்கம்! ஸ்ரீராம் – காயத்ரி திருமண அழைப்பிதழ் கிடைத்தது. ",
-    calTitle: "ஸ்ரீராம் – காயத்ரி திருமணம் (சுப முகூர்த்தம்)",
+    waDefault: "வணக்கம்! ஸ்ரீராம் – பூங்கொடி திருமண அழைப்பிதழ் கிடைத்தது. ",
+    calTitle: "ஸ்ரீராம் – பூங்கொடி திருமணம் (சுப முகூர்த்தம்)",
     calDetails: "முகூர்த்தம் அதிகாலை 4.30 – 6.00. வரவேற்பு 21.11.2026 மாலை 6.30, சங்கர நாராயணா கல்யாண மண்டபம், வடவள்ளி.",
     rsvpText: (d) =>
-      `🙏 வருகை உறுதி — ஸ்ரீராம் & காயத்ரி திருமணம்\n\nபெயர்: ${d.name}\nவருகை: ${d.attending}\nநபர்கள்: ${d.guests}` +
+      `🙏 வருகை உறுதி — ஸ்ரீராம் & பூங்கொடி திருமணம்\n\nபெயர்: ${d.name}\nவருகை: ${d.attending}\nநபர்கள்: ${d.guests}` +
       (d.events.length ? `\nநிகழ்வுகள்: ${d.events.join(", ")}` : "") +
       (d.msg ? `\n\nவாழ்த்து: ${d.msg}` : ""),
     yes: "ஆம், மகிழ்ச்சியுடன்", no: "வர இயலவில்லை"
